@@ -1,0 +1,38 @@
+.slider {
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slides {
+    display: flex;
+    width: 3200px;
+    height: 600px;
+    position: relative;
+    left: 0;
+    transition: left 0.5s ease;
+  }
+  
+  .slides img {
+    width: 800px;
+    height: 600px;
+  }
+  
+  .navigation {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .navigation button {
+    border: none;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
